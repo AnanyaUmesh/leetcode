@@ -8,7 +8,7 @@ public:
 
 private:
     void backTrack(const vector<string>& arr, string current, int start, int& maxLength) {
-        if (maxLength < current.length())
+        if (maxLength < current.length()) 
             maxLength = current.length();
 
         for (int i = start; i < arr.size(); i++) {
